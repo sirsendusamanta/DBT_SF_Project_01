@@ -1,0 +1,13 @@
+sources:
+  - name: MYAPP_DATALAKE
+    database: RAW_DEV
+    schema: MYAPP_DSL
+    tables:
+      - name: customer
+      - name: lineitem
+      - name: nation
+      - name: orders
+      - name: part
+      - name: partsupp
+      - name: region
+      - name: supplier

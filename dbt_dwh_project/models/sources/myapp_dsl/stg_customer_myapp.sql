@@ -1,0 +1,1 @@
+select * from {{ source('MYAPP_DATALAKE', 'customer') }}
